@@ -6,4 +6,6 @@ export default defineConfig({
     { path: "/docs", component: "docs" },
   ],
   npmClient: 'pnpm',
+  plugins: ['@umijs/plugins/dist/antd'],
+  antd:{}
 });
